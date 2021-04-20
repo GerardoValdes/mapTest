@@ -62,5 +62,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>&quot;Test will check your location to provide a better service&quot;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;Test will check your location to provide a better service&quot;</string>
 </dict>
 </plist>

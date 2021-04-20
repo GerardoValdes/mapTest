@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  mapTest
 //
-//  Created by Gerardo Valdes on 20/04/21.
+//  Created by Gerardo Valdes on 19/04/21.
 //
 
 import UIKit
@@ -13,7 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 

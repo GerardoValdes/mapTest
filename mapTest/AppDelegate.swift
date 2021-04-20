@@ -2,18 +2,22 @@
 //  AppDelegate.swift
 //  mapTest
 //
-//  Created by Gerardo Valdes on 20/04/21.
+//  Created by Gerardo Valdes on 19/04/21.
 //
 
 import UIKit
+import GoogleMaps
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyARmQDPRuAj317-umtxzJkoUTJ3osNBXbA")
+        
+        
         return true
     }
 
